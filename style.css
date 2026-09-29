@@ -12,18 +12,7 @@
 .wins-overlay h2{font-size:46px;line-height:1.12;font-weight:400;color:#08275a;margin:0 0 20px}
 .wins-overlay p,.wins-overlay li{font-size:18px;line-height:1.5}.wins-overlay li{margin:14px 0}
 
-.testimonial-banner{position:relative;min-height:665px;background-size:cover;background-position:center;display:flex;align-items:center;padding:70px max(7%,calc((100% - 1200px)/2))}
-.testimonial-banner.profound{background-image:url('assets/profound-reference.png');justify-content:flex-end}
-.testimonial-banner.miracle-banner{background-image:url('assets/miracle-reference.png');justify-content:flex-end;min-height:820px}
-.testimonial-panel{width:min(590px,44vw);background:#fff;padding:34px 32px 38px;color:#08275a;box-shadow:0 8px 25px rgba(0,0,0,.06)}
-.testimonial-panel h2{font-size:47px;line-height:1.15;font-weight:400;color:#08275a;margin:0 0 4px}
-.testimonial-panel h3{font-weight:400;color:#d7a5c6;margin:0 0 34px;font-size:18px}
-.testimonial-panel p{font-size:18px;line-height:1.52;margin:0 0 22px}
-.miracle-banner .testimonial-panel h2{font-family:Georgia,'Times New Roman',serif;font-weight:700}
-.miracle-banner .testimonial-panel p{font-family:Georgia,'Times New Roman',serif;font-size:17px}
 
 @media(max-width:900px){
  .wins-parallax{background-attachment:scroll;min-height:0;padding:55px 22px}.wins-overlay{grid-template-columns:1fr}.wins-overlay>div{min-height:0}.wins-overlay h2{font-size:36px}
- .testimonial-banner{min-height:620px;padding:40px 22px;background-position:left center;align-items:flex-end}.testimonial-banner.miracle-banner{min-height:760px;background-position:left center}
- .testimonial-panel{width:min(100%,620px);margin-left:auto;padding:28px 24px}.testimonial-panel h2{font-size:36px}.testimonial-panel p{font-size:16px}
 }
