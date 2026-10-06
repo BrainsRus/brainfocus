@@ -1,1 +1,381 @@
-<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Career Support for Professionals | Brain Focus</title><link rel="stylesheet" href="style.css"></head><body><header class="site-header"><a class="brand" href="index.html"><span class="brainmark">●●●</span><span><b>Brain Focus</b><small>CONSULTING</small></span></a></header><main><section class="blue" style="min-height:65vh;display:grid;place-items:center"><div class="center"><p class="eyebrow light">BRAIN FOCUS CONSULTING</p><h1 style="font-size:48px;margin:.2em">Career Support for Professionals</h1><p>This page is reserved for the next stage of the rebuild.</p><a class="btn orange" href="index.html">Back to Home</a></div></section></main></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Career Support for Professionals | Brain Focus</title>
+<link rel="stylesheet" href="style.css">
+
+<style>
+/* CHILDREN PAGE ONLY */
+.children-page {
+  color:#08275a;
+}
+
+.children-page .child-section {
+  max-width:1120px;
+  margin:0 auto;
+  padding:90px 30px;
+}
+
+.children-page .two-col {
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:80px;
+  align-items:center;
+}
+
+.children-page h1,
+.children-page h2 {
+  font-weight:400;
+  line-height:1.15;
+  margin:0 0 32px;
+}
+
+.children-page h1 {
+  font-size:48px;
+}
+
+.children-page h2 {
+  font-size:46px;
+}
+
+.children-page p {
+  font-size:18px;
+  line-height:1.5;
+}
+
+.children-page .pink {
+  color:#d6a4c4;
+}
+
+.children-page .child-btn {
+  display:inline-block;
+  margin-top:20px;
+  padding:17px 36px;
+  background:#2476bd;
+  color:white;
+  text-decoration:none;
+  font-size:18px;
+}
+
+.children-page .photo-frame {
+  position:relative;
+  padding:10px;
+}
+
+.children-page .photo-frame:after {
+  content:"";
+  position:absolute;
+  top:20px;
+  left:20px;
+  right:-10px;
+  bottom:-10px;
+  border:2px solid #2476bd;
+  pointer-events:none;
+}
+
+.children-page .photo-frame img {
+  display:block;
+  width:100%;
+  position:relative;
+  z-index:1;
+}
+
+/* BENEFITS */
+.children-page .benefits h3 {
+  color:#d6a4c4;
+  font-size:25px;
+  font-weight:400;
+  margin:36px 0 8px;
+}
+
+.children-page .benefit-button {
+  text-align:center;
+  margin-top:45px;
+}
+
+/* TESTIMONIAL BANNERS */
+.children-page .testimonial {
+  min-height:560px;
+  background-size:cover;
+  background-position:center;
+  display:flex;
+  align-items:center;
+  justify-content:flex-end;
+  padding:55px max(30px,calc((100% - 1120px)/2));
+}
+
+.children-page .testimonial-box {
+  width:500px;
+  max-width:100%;
+  background:white;
+  padding:38px 40px;
+  box-sizing:border-box;
+}
+
+.children-page .testimonial-box h2 {
+  font-family:Georgia,serif;
+  font-weight:bold;
+  font-size:42px;
+  margin-bottom:8px;
+}
+
+.children-page .testimonial-box .byline {
+  color:#d6a4c4;
+  margin:0 0 35px;
+}
+
+.children-page .testimonial-box p {
+  font-family:Georgia,serif;
+  font-size:17px;
+  line-height:1.55;
+}
+
+/* FINAL CHILD CTA */
+.children-page .child-cta {
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:70px;
+  align-items:center;
+}
+
+.children-page .cta-images {
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:35px;
+}
+
+.children-page .cta-images img {
+  width:100%;
+  display:block;
+}
+
+.children-page .cta-images .photo-frame:after {
+  top:14px;
+  left:14px;
+}
+
+/* NEEDS ASSESSMENT */
+.children-page .needs-strip {
+  background:#2476bd;
+  color:white;
+  text-align:center;
+  padding:45px 20px 55px;
+}
+
+.children-page .needs-strip h2 {
+  color:white;
+  font-size:28px;
+  font-weight:bold;
+  margin:0 0 4px;
+}
+
+.children-page .needs-strip p {
+  margin:0;
+}
+
+.children-page .needs-strip .child-btn {
+  background:#ef9825;
+  margin-top:18px;
+}
+
+@media(max-width:800px) {
+  .children-page .two-col,
+  .children-page .child-cta {
+    grid-template-columns:1fr;
+    gap:40px;
+  }
+
+  .children-page .child-section {
+    padding:55px 25px;
+  }
+
+  .children-page h1,
+  .children-page h2 {
+    font-size:38px;
+  }
+
+  .children-page .testimonial {
+    padding:35px 20px;
+    min-height:500px;
+  }
+
+  .children-page .testimonial-box {
+    width:100%;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header class="site-header"><a class="brand" href="index.html"><img src="https://images.groovetech.io/NfmhLCSXB964e5YX5T2obqIg7NGoWLc_vuRPrpjtFHE/rs%3Afit%3A0%3A0%3A0/g%3Ano%3A0%3A0/c%3A0%3A0/aHR0cHM6Ly9hc3NldHMuZ3Jvb3ZlYXBwcy5jb20vaW1hZ2VzL2VmN2JkNGI4LWQ1YjAtNDdlMC04ZDQ0LThmYjY0ODkxY2JkMS8xNjgwMzY2NDc2X0JyYWluRm9jdXNDb25zdWx0aW5nTG9nby5wbmc.webp" alt="Brain Focus Consulting"></a><button class="menu" aria-label="Menu" onclick="document.body.classList.toggle('navopen')">☰</button><nav><a href="index.html">HOME</a><a href="children.html">CHILDREN</a><span class="drop"><button>CAREER SUPPORT⌄</button><span><a href="for-students.html">For Students</a><a href="for-professionals.html">For Professionals</a></span></span><span class="drop"><button>BUSINESSES⌄</button><span><a href="for-teams.html">For Teams</a><a href="for-recruitment.html">For Recruitment</a></span></span><span class="drop"><button>RELATIONSHIPS⌄</button><span><a href="pre-marital.html">Pre-Marital</a><a href="marital.html">Marital</a></span></span><a href="inquire-book.html">INQUIRE & BOOK</a><a href="contact.html">CONTACT</a><a class="cta" href="#assessment">Free Needs Assessment</a></nav></header>
+
+
+</header>
+
+<main class="children-page">
+
+<!-- 1. CHILDREN & ADOLESCENTS -->
+<section class="child-section">
+  <div class="two-col">
+    <div>
+    <h1>Career Support<br>for Professionals</h1>
+
+      
+        <p>If you're unhappy or unsatisfied in your chosen profession or organization, Brain Profiling can provide insights as to why. Genetic Brain Dominance Profiling provides an opportunity for professionals to better understand themselves and recognize patterns that have and haven't served them in their careers and identify possible next steps towards joy and career success.</p>
+      </p>
+
+      <a class="child-btn" href="inquire-book.html">Book A Profile Session</a>
+    </div>
+
+    <div class="photo-frame">
+ <img src="assets/professionals-hero.webp"
+         alt="Professional woman feeling stressed at work">
+    </div>
+  </div>
+</section>
+
+<!-- 2. BENEFITS OF PROFILING -->
+<section class="child-section benefits">
+  <div class="two-col">
+    <div class="photo-frame">
+<img src="assets/professionals-fulfillment.webp"
+        alt="Two professional women talking">
+    </div>
+
+    <div>
+     <h2>Find fulfillment at work</h2>
+      <p class="pink">Discovery | Support | Success</p>
+
+      <h3>Discovery</h3>
+      <p>
+       <p>It's not unusual to feel unsatisfied in our career, misunderstood by those at work, and underappreciated for the time and effort we put in. With your Brain Profile, you'll understand why you may be feeling less than enthused about your current role.</p>
+      </p>
+
+      <h3>Support</h3>
+      <p>
+       <p>With both insight and confirmation about why you behave in certain ways under stress, you'll be better able to think critically about your ideal career path. Noeline can offer suggestions here for you to consider.</p>
+      </p>
+
+      <h3>Success</h3>
+      <p>
+       <p>With Brain Profiling, you'll have the framework to confidently communicate your needs more effectively and find the appreciation and support you're looking for in your current role, or gain the courage to move towards a future that ignites your true passions.</p>
+      </p>
+    </div>
+  </div>
+
+  <div class="benefit-button">
+    <a class="child-btn" href="inquire-book.html">Book An Online Session Today!</a>
+  </div>
+</section>
+
+<!-- 3. STUNNINGLY ACCURATE -->
+<section class="testimonial"
+  style="background-image:url('assets/professionals-stunning.webp');">
+  <div class="testimonial-box">
+    <h2>"Stunningly accurate"</h2>
+    <p class="byline">Jenny Devine. Integrative Leadership Coach, MA</p>
+
+    <p>"When Noeline explained to me the results of my Genetic Brain Dominance Profiling it was so accurate a description of what happens to me under stress that I had to laugh.</p>
+
+    <p>Be warned – there can be no sneaky manipulations or secrets with GBDP. This extraordinary technique goes to the very heart of who you are and your hard wired “way of being” in the world. This is invaluable information that helps turn stressful situations into winning ones. My highest recommendation."</p>
+  </div>
+</section>
+
+<!-- 4. NOELINE SHARES -->
+<section class="testimonial"
+  style="background-image:url('assets/professionals-noeline-shares.webp');">
+  <div class="testimonial-box">
+    <h2>Noeline shares</h2>
+    <p class="byline">See a powerful example of Profiling at work</p>
+
+    <p>"A doctor came to see me who was very unhappy in her work. She said that she never felt at ease in her job. Once we had done her profile it became evident why she had struggled so.</p>
+
+    <p>We discussed where her strengths lay, and explored what other options she could follow. This led her to change course.</p>
+
+    <p>She began to study a different aspect of medicine and is now much happier and fulfilled."</p>
+  </div>
+</section>
+
+<!-- 5. SHAKE THINGS UP -->
+<section class="testimonial"
+  style="background-image:url('assets/professionals-shake-things-up.webp');">
+  <div class="testimonial-box">
+    <h2>Shake things up</h2>
+    <p class="byline">This teacher came to life after her profile with Noeline</p>
+
+    <p>"A teacher came to consult with me. She complained that she did not feel challenged by the work she was doing. Looking at her profile we began to see why it was that she was feeling discontented. We discussed how she could change what she was doing. She managed to make that change and was the happier for it. She felt much more challenged and enlivened."</p>
+  </div>
+</section>
+
+<!-- 6. NOW BETTER IN BALANCE -->
+<section class="testimonial"
+  style="background-image:url('assets/professionals-balance.webp');">
+  <div class="testimonial-box">
+    <h2>"Now better in balance"</h2>
+    <p class="byline">Simone - Life Force UK</p>
+
+    <p>"I wanted to express my gratitude for the session with Noeline. The right brain/left brain conundrum was always puzzling to me and I could never explain why certain features were so opposite and seemingly contrary in my life.</p>
+
+    <p>One minute the free spirit creating in all directions, leaving a mess (you should see me cooking) but focusing only on the creation, the next minute feeling bad about the mess and becoming a total perfectionist having to put in order the sock drawer... And so it was confusing.</p>
+
+    <p>I am now able to balance the two better and bring it into more harmony. A real big thank you!"</p>
+  </div>
+</section>
+
+<!-- 7. REDISCOVER YOUR GIFTS -->
+<section class="testimonial"
+  style="background-image:url('assets/professionals-rediscover.webp');">
+  <div class="testimonial-box">
+    <h2>Rediscover your gifts</h2>
+    <p class="byline">Noeline shares that it's not always about changing careers</p>
+
+    <p>"I was visited by an ophthalmic surgeon who was part of a big practice of other surgeons. After doing her profile she began to understand that although she was different from the others she realised she had much to offer them.</p>
+
+    <p>She came to the understanding that being different did not mean that she was less valuable to the team. She left with a spring in her step and I could see that she had begun to respect herself and enjoy the fact that she could offer another aspect to the practice. She did not need to change jobs or reinvent herself."</p>
+  </div>
+</section>
+
+<!-- 7. FINAL CALL TO ACTION -->
+<section class="child-section">
+  <div class="child-cta">
+    <div>
+      <h2>
+       <h2>
+  Ready to feel<br>
+  equipped with<br>
+  solutions to thrive<br>
+  at work (and life)?
+</h2>
+      </h2>
+
+      <a class="child-btn" href="inquire-book.html">Book A Session</a>
+    </div>
+
+    <div class="cta-images">
+      <div class="photo-frame">
+  <img src="assets/professionals-cta-1.webp"
+     alt="Professional woman smiling at her desk">
+      </div>
+
+      <div class="photo-frame">
+     <img src="assets/professionals-cta-2.webp"
+     alt="Professionals working together">
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+</main><footer><img class="footer-logo" src="https://images.groovetech.io/TEmyy-5GClAVX6WdnSkk3Kx9Jpmm0pJka_zYa6K0SmQ/rs%3Afit%3A0%3A0%3A0/g%3Ano%3A0%3A0/c%3A0%3A0/aHR0cHM6Ly9hc3NldHMuZ3Jvb3ZlYXBwcy5jb20vaW1hZ2VzL2VmN2JkNGI4LWQ1YjAtNDdlMC04ZDQ0LThmYjY0ODkxY2JkMS8xNjgwMzY3MTY0X0JyYWluRm9jdXNMb2dvNTAweDUwMC5wbmc.webp" alt="Brain Focus Consulting"><p>Noeline Levinson, Profilogist</p><p><a href="contact.html">Contact</a> · <a href="index.html">Home</a> · <a href="inquire-book.html">Book Now</a></p><small>Copyright © 2023 Brain Focus Consulting. All rights reserved.</small></footer>
+<script>document.querySelectorAll('.drop>button').forEach(b=>b.addEventListener('click',()=>b.parentElement.classList.toggle('open')))</script></body></html>
+  <img src="https://images.groovetech.io/TEymy-5GC1AVX6WdnSkk3Kx9Jpmm0pJka_zYa6K0SmQ/rs%3Afit%3A0%3A0%3A0/g%3Ano%3A0%3A0/aHR0cHM6Ly9hc3NldHMtZ3Jvb3ZlLXVzLXd..."
+       alt="Brain Focus Consulting">
+</footer>
+
+</body>
+</html>
