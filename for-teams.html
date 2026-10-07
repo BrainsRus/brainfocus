@@ -1,1 +1,350 @@
-<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Team Building | Brain Focus</title><link rel="stylesheet" href="style.css"></head><body><header class="site-header"><a class="brand" href="index.html"><span class="brainmark">●●●</span><span><b>Brain Focus</b><small>CONSULTING</small></span></a></header><main><section class="blue" style="min-height:65vh;display:grid;place-items:center"><div class="center"><p class="eyebrow light">BRAIN FOCUS CONSULTING</p><h1 style="font-size:48px;margin:.2em">Team Building</h1><p>This page is reserved for the next stage of the rebuild.</p><a class="btn orange" href="index.html">Back to Home</a></div></section></main></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Team Building | Brain Focus</title>
+<link rel="stylesheet" href="style.css">
+
+<style>
+/* CHILDREN PAGE ONLY */
+.children-page {
+  color:#08275a;
+}
+
+.children-page .child-section {
+  max-width:1120px;
+  margin:0 auto;
+  padding:90px 30px;
+}
+
+.children-page .two-col {
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:80px;
+  align-items:center;
+}
+
+.children-page h1,
+.children-page h2 {
+  font-weight:400;
+  line-height:1.15;
+  margin:0 0 32px;
+}
+
+.children-page h1 {
+  font-size:48px;
+}
+
+.children-page h2 {
+  font-size:46px;
+}
+
+.children-page p {
+  font-size:18px;
+  line-height:1.5;
+}
+
+.children-page .pink {
+  color:#d6a4c4;
+}
+
+.children-page .child-btn {
+  display:inline-block;
+  margin-top:20px;
+  padding:17px 36px;
+  background:#2476bd;
+  color:white;
+  text-decoration:none;
+  font-size:18px;
+}
+
+.children-page .photo-frame {
+  position:relative;
+  padding:10px;
+}
+
+.children-page .photo-frame:after {
+  content:"";
+  position:absolute;
+  top:20px;
+  left:20px;
+  right:-10px;
+  bottom:-10px;
+  border:2px solid #2476bd;
+  pointer-events:none;
+}
+
+.children-page .photo-frame img {
+  display:block;
+  width:100%;
+  position:relative;
+  z-index:1;
+}
+
+/* BENEFITS */
+.children-page .benefits h3 {
+  color:#d6a4c4;
+  font-size:25px;
+  font-weight:400;
+  margin:36px 0 8px;
+}
+
+.children-page .benefit-button {
+  text-align:center;
+  margin-top:45px;
+}
+
+/* TESTIMONIAL BANNERS */
+.children-page .testimonial {
+  min-height:560px;
+  background-size:cover;
+  background-position:center;
+  display:flex;
+  align-items:center;
+  justify-content:flex-end;
+  padding:55px max(30px,calc((100% - 1120px)/2));
+}
+
+.children-page .testimonial-box {
+  width:500px;
+  max-width:100%;
+  background:white;
+  padding:38px 40px;
+  box-sizing:border-box;
+}
+
+.children-page .testimonial-box h2 {
+  font-family:Georgia,serif;
+  font-weight:bold;
+  font-size:42px;
+  margin-bottom:8px;
+}
+
+.children-page .testimonial-box .byline {
+  color:#d6a4c4;
+  margin:0 0 35px;
+}
+
+.children-page .testimonial-box p {
+  font-family:Georgia,serif;
+  font-size:17px;
+  line-height:1.55;
+}
+
+/* FINAL CHILD CTA */
+.children-page .child-cta {
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:70px;
+  align-items:center;
+}
+
+.children-page .cta-images {
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:35px;
+}
+
+.children-page .cta-images img {
+  width:100%;
+  display:block;
+}
+
+.children-page .cta-images .photo-frame:after {
+  top:14px;
+  left:14px;
+}
+
+/* NEEDS ASSESSMENT */
+.children-page .needs-strip {
+  background:#2476bd;
+  color:white;
+  text-align:center;
+  padding:45px 20px 55px;
+}
+
+.children-page .needs-strip h2 {
+  color:white;
+  font-size:28px;
+  font-weight:bold;
+  margin:0 0 4px;
+}
+
+.children-page .needs-strip p {
+  margin:0;
+}
+
+.children-page .needs-strip .child-btn {
+  background:#ef9825;
+  margin-top:18px;
+}
+
+@media(max-width:800px) {
+  .children-page .two-col,
+  .children-page .child-cta {
+    grid-template-columns:1fr;
+    gap:40px;
+  }
+
+  .children-page .child-section {
+    padding:55px 25px;
+  }
+
+  .children-page h1,
+  .children-page h2 {
+    font-size:38px;
+  }
+
+  .children-page .testimonial {
+    padding:35px 20px;
+    min-height:500px;
+  }
+
+  .children-page .testimonial-box {
+    width:100%;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header class="site-header"><a class="brand" href="index.html"><img src="https://images.groovetech.io/NfmhLCSXB964e5YX5T2obqIg7NGoWLc_vuRPrpjtFHE/rs%3Afit%3A0%3A0%3A0/g%3Ano%3A0%3A0/c%3A0%3A0/aHR0cHM6Ly9hc3NldHMuZ3Jvb3ZlYXBwcy5jb20vaW1hZ2VzL2VmN2JkNGI4LWQ1YjAtNDdlMC04ZDQ0LThmYjY0ODkxY2JkMS8xNjgwMzY2NDc2X0JyYWluRm9jdXNDb25zdWx0aW5nTG9nby5wbmc.webp" alt="Brain Focus Consulting"></a><button class="menu" aria-label="Menu" onclick="document.body.classList.toggle('navopen')">☰</button><nav><a href="index.html">HOME</a><a href="children.html">CHILDREN</a><span class="drop"><button>CAREER SUPPORT⌄</button><span><a href="for-students.html">For Students</a><a href="for-professionals.html">For Professionals</a></span></span><span class="drop"><button>BUSINESSES⌄</button><span><a href="for-teams.html">For Teams</a><a href="for-recruitment.html">For Recruitment</a></span></span><span class="drop"><button>RELATIONSHIPS⌄</button><span><a href="pre-marital.html">Pre-Marital</a><a href="marital.html">Marital</a></span></span><a href="inquire-book.html">INQUIRE & BOOK</a><a href="contact.html">CONTACT</a><a class="cta" href="#assessment">Free Needs Assessment</a></nav></header>
+
+
+</header>
+
+<main class="children-page">
+
+<!-- 1. CHILDREN & ADOLESCENTS -->
+<section class="child-section">
+  <div class="two-col">
+    <div>
+ <h1>Team Building</h1>
+
+      
+        <p>Stress is inevitable in the marketplace, but great communication, empathy and teamwork can be fostered regardless of the negative factors that are currently influencing the dynamic within your teams. Genetic Brain Dominance Profiling is the key to unlocking better communication, understanding and teamwork.</p></p>
+      </p>
+
+      <a class="child-btn" href="inquire-book.html">Book A Free Discovery Call</a>
+    </div>
+
+    <div class="photo-frame">
+ <img src="assets/business-hero.webp"
+    alt="Team collaborating around a table">
+    </div>
+  </div>
+</section>
+
+<!-- 2. BENEFITS OF PROFILING -->
+<section class="child-section benefits">
+  <div class="two-col">
+ <img src="assets/business-stronger-teams.webp"
+    alt="Team working together">
+    </div>
+
+    <div>
+<h2>Build stronger teams</h2>
+      <p class="pink">Discovery | Support | Success</p>
+
+      <h3>Discovery</h3>
+      <p>
+       <p>When we're stressed, frightened, panicked or overexcited, we find ourselves behaving differently, in ways we don't understand. Brain Profiling unlocks why our behavior changes and what one can do to limit the changes. Discovering how to manage one’s own limits and stress thresholds is invaluable within the workplace setting.</p></p>
+      </p>
+
+      <h3>Support</h3>
+      <p>
+       <p><p>After each individual has been profiled, Noeline brings the team together to discuss the dynamics within the team and offer simple, yet profound strategies for enhanced understanding and communication based upon the information offered by the profiles.</p></p>
+      </p>
+
+      <h3>Success</h3>
+      <p>
+       <p><p>A harmonious, effective team is the goal, and equipped with the Brain Profiles for each player on the team, greater understanding, strategies and harmony become the recipe for success.</p></p>
+      </p>
+    </div>
+  </div>
+
+  <div class="benefit-button">
+    <a class="child-btn" href="inquire-book.html">Book A Free Discovery Call</a>
+  </div>
+</section>
+
+<!-- 3. TOTALLY ASTOUNDED -->
+<section class="testimonial"
+  style="background-image:url('assets/business-astounded.webp');">
+  <div class="testimonial-box">
+    <h2>"Totally astounded"</h2>
+    <p class="byline">Nicky Webber, Health Script Ltd Auckland</p>
+
+    <p>"After years in corporate life, I’m a born skeptic. But when I signed up for Brain Profiling I was totally astounded at the insights that Noeline’s assessment delivered.</p>
+
+    <p>Her advice has enabled me to communicate more effectively, tackle those difficult relationships AND make them work! I highly recommend this tool to every manager and business team – it will really get things humming and improve overall productivity!"</p>
+  </div>
+</section>
+
+<!-- 4. HARMONY IS POSSIBLE -->
+<section class="testimonial"
+  style="background-image:url('assets/business-harmony.webp');">
+  <div class="testimonial-box">
+    <h2>Harmony is possible</h2>
+    <p class="byline">Noeline has witnessed this in seemingly <em>impossible</em> situations</p>
+
+    <p>"I see this time and time again... many people change jobs believing that in the next job they will be better understood and appreciated.</p>
+
+    <p>However, had it been possible for the communication between all staff members to be more effective they would have been able to stay where they were and find the appreciation and understanding they were looking for.</p>
+
+    <p>I've seen Brain Profiling become an invaluable tool to help teams process past hurts and misunderstandings, and be able to move forward harmoniously."</p>
+  </div>
+</section>
+
+<!-- 5. SUCCESS ACROSS THE BOARD -->
+<section class="testimonial"
+  style="background-image:url('assets/business-success.webp');">
+  <div class="testimonial-box">
+    <h2>Success across the board</h2>
+    <p class="byline">Everyone benefits from Brain Profiling with Noeline</p>
+
+    <p>"In all the teams I have worked with, the individuals were grateful for the experience. The process is simple and they could quickly come to grips with the concepts and implement them.</p>
+
+    <p>The teams worked much more fluidly and when there was conflict they could address it much more efficiently."</p>
+  </div>
+</section>
+
+<!-- 7. FINAL CALL TO ACTION -->
+<section class="child-section">
+  <div class="child-cta">
+    <div>
+      <h2>
+  Ready to feel<br>
+  equipped with<br>
+  solutions to help<br>
+  your teams win?
+</h2>
+      <a class="child-btn" href="inquire-book.html">Book A Discovery Call</a>
+
+    <div class="cta-images">
+  <div class="photo-frame">
+    <img src="assets/business-cta-1.webp"
+         alt="Professional team discussion">
+  </div>
+
+  <div class="photo-frame">
+    <img src="assets/business-cta-2.webp"
+         alt="Professional working with colleagues">
+  </div>
+</div>
+</div>
+</section>
+
+
+
+
+</main><footer><img class="footer-logo" src="https://images.groovetech.io/TEmyy-5GClAVX6WdnSkk3Kx9Jpmm0pJka_zYa6K0SmQ/rs%3Afit%3A0%3A0%3A0/g%3Ano%3A0%3A0/c%3A0%3A0/aHR0cHM6Ly9hc3NldHMuZ3Jvb3ZlYXBwcy5jb20vaW1hZ2VzL2VmN2JkNGI4LWQ1YjAtNDdlMC04ZDQ0LThmYjY0ODkxY2JkMS8xNjgwMzY3MTY0X0JyYWluRm9jdXNMb2dvNTAweDUwMC5wbmc.webp" alt="Brain Focus Consulting"><p>Noeline Levinson, Profilogist</p><p><a href="contact.html">Contact</a> · <a href="index.html">Home</a> · <a href="inquire-book.html">Book Now</a></p><small>Copyright © 2023 Brain Focus Consulting. All rights reserved.</small></footer>
+<script>document.querySelectorAll('.drop>button').forEach(b=>b.addEventListener('click',()=>b.parentElement.classList.toggle('open')))</script></body></html>
+  <img src="https://images.groovetech.io/TEymy-5GC1AVX6WdnSkk3Kx9Jpmm0pJka_zYa6K0SmQ/rs%3Afit%3A0%3A0%3A0/g%3Ano%3A0%3A0/aHR0cHM6Ly9hc3NldHMtZ3Jvb3ZlLXVzLXd..."
+       alt="Brain Focus Consulting">
+</footer>
+
+</body>
+</html>
