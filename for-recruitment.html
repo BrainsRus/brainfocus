@@ -1,1 +1,367 @@
-<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Recruitment Support | Brain Focus</title><link rel="stylesheet" href="style.css"></head><body><header class="site-header"><a class="brand" href="index.html"><span class="brainmark">●●●</span><span><b>Brain Focus</b><small>CONSULTING</small></span></a></header><main><section class="blue" style="min-height:65vh;display:grid;place-items:center"><div class="center"><p class="eyebrow light">BRAIN FOCUS CONSULTING</p><h1 style="font-size:48px;margin:.2em">Recruitment Support</h1><p>This page is reserved for the next stage of the rebuild.</p><a class="btn orange" href="index.html">Back to Home</a></div></section></main></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Recruitment Support | Brain Focus</title>
+<link rel="stylesheet" href="style.css">
+
+<style>
+/* CHILDREN PAGE ONLY */
+.children-page {
+  color:#08275a;
+}
+
+.children-page .child-section {
+  max-width:1120px;
+  margin:0 auto;
+  padding:90px 30px;
+}
+
+.children-page .two-col {
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:80px;
+  align-items:center;
+}
+
+.children-page h1,
+.children-page h2 {
+  font-weight:400;
+  line-height:1.15;
+  margin:0 0 32px;
+}
+
+.children-page h1 {
+  font-size:48px;
+}
+
+.children-page h2 {
+  font-size:46px;
+}
+
+.children-page p {
+  font-size:18px;
+  line-height:1.5;
+}
+
+.children-page .pink {
+  color:#d6a4c4;
+}
+
+.children-page .child-btn {
+  display:inline-block;
+  margin-top:20px;
+  padding:17px 36px;
+  background:#2476bd;
+  color:white;
+  text-decoration:none;
+  font-size:18px;
+}
+
+.children-page .photo-frame {
+  position:relative;
+  padding:10px;
+}
+
+.children-page .photo-frame:after {
+  content:"";
+  position:absolute;
+  top:20px;
+  left:20px;
+  right:-10px;
+  bottom:-10px;
+  border:2px solid #2476bd;
+  pointer-events:none;
+}
+
+.children-page .photo-frame img {
+  display:block;
+  width:100%;
+  position:relative;
+  z-index:1;
+}
+
+/* BENEFITS */
+.children-page .benefits h3 {
+  color:#d6a4c4;
+  font-size:25px;
+  font-weight:400;
+  margin:36px 0 8px;
+}
+
+.children-page .benefit-button {
+  text-align:center;
+  margin-top:45px;
+}
+
+/* TESTIMONIAL BANNERS */
+.children-page .testimonial {
+  min-height:560px;
+  background-size:cover;
+  background-position:center;
+  display:flex;
+  align-items:center;
+  justify-content:flex-end;
+  padding:55px max(30px,calc((100% - 1120px)/2));
+}
+
+.children-page .testimonial-box {
+  width:500px;
+  max-width:100%;
+  background:white;
+  padding:38px 40px;
+  box-sizing:border-box;
+}
+
+.children-page .testimonial-box h2 {
+  font-family:Georgia,serif;
+  font-weight:bold;
+  font-size:42px;
+  margin-bottom:8px;
+}
+
+.children-page .testimonial-box .byline {
+  color:#d6a4c4;
+  margin:0 0 35px;
+}
+
+.children-page .testimonial-box p {
+  font-family:Georgia,serif;
+  font-size:17px;
+  line-height:1.55;
+}
+
+/* FINAL CHILD CTA */
+.children-page .child-cta {
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:70px;
+  align-items:center;
+}
+
+.children-page .cta-images {
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:35px;
+}
+
+.children-page .cta-images img {
+  width:100%;
+  display:block;
+}
+
+.children-page .cta-images .photo-frame:after {
+  top:14px;
+  left:14px;
+}
+
+/* NEEDS ASSESSMENT */
+.children-page .needs-strip {
+  background:#2476bd;
+  color:white;
+  text-align:center;
+  padding:45px 20px 55px;
+}
+
+.children-page .needs-strip h2 {
+  color:white;
+  font-size:28px;
+  font-weight:bold;
+  margin:0 0 4px;
+}
+
+.children-page .needs-strip p {
+  margin:0;
+}
+
+.children-page .needs-strip .child-btn {
+  background:#ef9825;
+  margin-top:18px;
+}
+
+@media(max-width:800px) {
+  .children-page .two-col,
+  .children-page .child-cta {
+    grid-template-columns:1fr;
+    gap:40px;
+  }
+
+  .children-page .child-section {
+    padding:55px 25px;
+  }
+
+  .children-page h1,
+  .children-page h2 {
+    font-size:38px;
+  }
+
+  .children-page .testimonial {
+    padding:35px 20px;
+    min-height:500px;
+  }
+
+  .children-page .testimonial-box {
+    width:100%;
+  }
+}
+  .business-banner {
+  margin-bottom: 40px;
+}
+</style>
+</head>
+
+<body>
+
+<header class="site-header"><a class="brand" href="index.html"><img src="https://images.groovetech.io/NfmhLCSXB964e5YX5T2obqIg7NGoWLc_vuRPrpjtFHE/rs%3Afit%3A0%3A0%3A0/g%3Ano%3A0%3A0/c%3A0%3A0/aHR0cHM6Ly9hc3NldHMuZ3Jvb3ZlYXBwcy5jb20vaW1hZ2VzL2VmN2JkNGI4LWQ1YjAtNDdlMC04ZDQ0LThmYjY0ODkxY2JkMS8xNjgwMzY2NDc2X0JyYWluRm9jdXNDb25zdWx0aW5nTG9nby5wbmc.webp" alt="Brain Focus Consulting"></a><button class="menu" aria-label="Menu" onclick="document.body.classList.toggle('navopen')">☰</button><nav><a href="index.html">HOME</a><a href="children.html">CHILDREN</a><span class="drop"><button>CAREER SUPPORT⌄</button><span><a href="for-students.html">For Students</a><a href="for-professionals.html">For Professionals</a></span></span><span class="drop"><button>BUSINESSES⌄</button><span><a href="for-teams.html">For Teams</a><a href="for-recruitment.html">For Recruitment</a></span></span><span class="drop"><button>RELATIONSHIPS⌄</button><span><a href="pre-marital.html">Pre-Marital</a><a href="marital.html">Marital</a></span></span><a href="inquire-book.html">INQUIRE & BOOK</a><a href="contact.html">CONTACT</a><a class="cta" href="#assessment">Free Needs Assessment</a></nav></header>
+
+
+</header>
+
+<main class="children-page">
+
+<!-- 1. CHILDREN & ADOLESCENTS -->
+<section class="child-section">
+  <div class="two-col">
+    <div>
+ <h1>Recruitment Support</h1>
+
+      
+        <p><p>Finding the right person for the job can be tricky, and it’s costly when we get it wrong. Genetic Brain Dominance Profiling provides an incredibly accurate way to understand your candidates and determine whether they are the right fit for the role and your existing team.</p>
+      </p>
+
+      <a class="child-btn" href="inquire-book.html">Book A Free Discovery Call</a>
+    </div>
+
+    <div class="photo-frame">
+<img src="assets/recruitment-hero.webp"
+     alt="Candidates waiting for an interview">
+    </div>
+  </div>
+</section>
+
+<!-- 2. BENEFITS OF PROFILING -->
+<section class="child-section benefits">
+  <div class="two-col">
+    <div class="photo-frame">
+<img src="assets/recruitment-choose-right.webp"
+     alt="Recruitment interview">
+    </div>
+
+    <div>
+<h2>Choose right the 1st time</h2>
+      <p class="pink">Discovery | Support | Success</p>
+
+      <h3>Discovery</h3>
+             <p>Organizations have job descriptions. Candidates come with experience, skillsets and passions. Genetic Brain Dominance Profiling identifies what happens to a candidate under stress and if they are well suited for a given role.</p>
+
+      <h3>Support</h3>
+         <p>Working with Noeline to profile top candidates gives support to your organization like no other testing framework. While it's not fool proof, the Brain Profiling process - coupled with Noeline's expert coaching - offers a window into the possible success of candidates.</p>
+
+      <h3>Success</h3>
+      
+       <p>Reduce turnover costs by doing the profiling work up front. Having the winning candidate understand his/her profile offers insight and confidence to thrive in their new position.</p>
+    </div>
+  </div>
+
+  <div class="benefit-button">
+    <a class="child-btn" href="inquire-book.html">Schedule A Free Discovery Call</a>
+  </div>
+</section>
+
+<!-- 3. TOTALLY ASTOUNDED -->
+<section class="testimonial business-banner"
+  style="background-image:url('assets/recruitment-highly-recommended.webp');">
+  <div class="testimonial-box">
+    <h2>"Highly recommended"</h2>
+    <p class="byline">Sarah Breslin
+    <p>"I found it invaluable to be brain profiled.
+I couldn't believe how correct it was and how having gone away from the session with Noeline, I could then use this information to understand why I react how I do under stress.
+I would highly recommend this as a tool for prospective employers to use for staff recruitment and also for managers to use for profiling their teams."</p>
+
+
+  </div>
+</section>
+
+<!-- 4. HARMONY IS POSSIBLE -->
+<section class="testimonial business-banner"
+style="background-image:url('assets/recruitment-hand-picked.webp');">
+  <div class="testimonial-box">
+  
+    <h2>Hand-picked candidates</h2>
+    <p>class="byline">Noeline shares her experience with her client, Janet Peace</p>
+
+   <p>"I met Janet when she brought her daughter to me for Sound Therapy. I met her business partner at the same time. They decided to start a company together, so first, I profiled the two of them. Then Janet sent me all the candidates they had short-listed. They gave me the specs for each job they wanted filled. We were able to hand pick each person carefully.</p>
+
+<p>Then we did a workshop for the staff and the two directors. This was most important, as the directors had one style of communication but the workforce had a totally different style. In order for them to have an effective team, it was necessary for them to really understand one another.</p>
+
+<p>Over the years the company went from 4 members of staff to 15 members of staff. Once or twice Janet thought she would save herself the hassle of sending me the candidates to profile. Sadly, those positions soon came available again. She thought she could rely on her hunch and the fact that she liked the candidate and the fact that the candidate had written in her CV that she could do the job. However, the CV did not tell Janet how these people were going to react when things got stressful, as they tend to do in a marketing company."</p>
+  </div>
+</section>
+
+<!-- 5. SUCCESS ACROSS THE BOARD -->
+<section class="testimonial business-banner"
+style="background-image:url('assets/recruitment-very-satisfied.webp');">
+  <div class="testimonial-box">
+  
+<h2>"Very satisfied..."</h2>
+<p class="byline">Janet Peace, Director of Hot Tomato Communications CC</p>
+  <p>"Our company specialises in design and creative implementation of marketing strategy.</p>
+
+<p>We contracted Noeline Levinson to profile all short-listed potential employees. We found the process to be extremely helpful in our decision-making process. We have been able to employ staff which fit our job descriptions. For example, when we need a designer with an eye for detail, and who will follow time schedules, we know we need a left-brained, right-eyed, left-handed applicant.</p>
+
+<p>Sounds complicated, but (it) has meant the difference between employing someone who SAYS they can meet the criteria, compared to KNOWING we have the applicant to fit the criteria.</p>
+
+<p>We have employed web designers, designers, DTP operators and administrators using Noeline's process, and we have been very satisfied with the results.</p>
+
+<p>Noeline's personal approach and interactive consultations also helps us build inter-staff communications and understand the difference between how we are all 'wired'."</p>
+  </div>
+</section>
+
+<!-- 7. FINAL CALL TO ACTION -->
+<section class="child-section">
+  <div class="child-cta">
+    <div>
+      <h2>
+  Ready to reduce<br>
+turnover costs and<br>
+hire the right<br>
+candidate?
+
+</h2>
+      <a class="child-btn" href="inquire-book.html">Book A Free Discovery Call</a>
+      </div>
+
+    <div class="cta-images">
+  <div class="photo-frame">
+    <img src="assets/recruitment-cta-1.webp"
+         alt="Professional team discussion">
+  </div>
+
+  <div class="photo-frame">
+    <img src="assets/recruitment-cta-2.webp"
+         alt="Professional working with colleagues">
+  </div>
+</div>
+
+</section>
+</main>
+
+<footer>
+  <img class="footer-logo"
+       src="https://images.groovetech.io/TEmyy-5GC1AVX6WdnSkk3Kx9Jpmm0pJka_zYa6K0SmQ/rs%3Afit%3A0%3A0%3A0/g%3Ano%3A0%3A0/c%3A0%3A0/aHR0cHM6Ly9hc3NldHMuZ3Jvb3ZlYXBwcy5jb20vaW1hZ2VzL2VmN2JkNGI4LWQ1YjAtNDdlMC04ZDQ0LThmYjY0ODkxY2JkMS8xNjgwMzkxNjA5X0JyYWluRm9jdXNIUEJhbm5lcjE5MjB4MTI4MDE0LnBuZw.webp"
+       alt="Brain Focus Consulting">
+</footer>
+
+<script>
+document.querySelectorAll('.drop>button').forEach(b =>
+  b.addEventListener('click', () => b.parentElement.classList.toggle('open'))
+);
+</script>
+
+</body>
+</html>
+
+
+
+
